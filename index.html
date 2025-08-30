@@ -22,33 +22,106 @@
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 20px;
         }
-        .gallery img {
-            width: 100%;
-            height: auto;
+        .gallery-item {
+            background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: transform 0.2s;
         }
-        .gallery img:hover {
+        .gallery-item:hover {
             transform: scale(1.05);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .gallery-item .caption {
+            padding: 15px;
+            text-align: center;
+            font-family: 'Perpetua', serif;
+            font-size: 1.2em;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Photo Gallery</h1>
+        <h1>2025 Sale</h1>
         <div class="gallery">
-            <img src="images/20250812_170058.jpg" alt="Photo">
-            <img src="images/20250812_170446.jpg" alt="Photo">
-            <img src="images/20250812_170801.jpg" alt="Photo">
-            <img src="images/20250812_171259.jpg" alt="Photo">
-            <img src="images/20250812_190008.jpg" alt="Photo">
-            <img src="images/20250812_190056.jpg" alt="Photo">
-            <img src="images/20250812_191642.jpg" alt="Photo">
-            <img src="images/20250812_192416.jpg" alt="Photo">
-            <img src="images/20250812_192832.jpg" alt="Photo">
-            <img src="images/20250812_193131.jpg" alt="Photo">
-            <img src="images/20250812_193523.jpg" alt="Photo">
+            <div class="gallery-item">
+                <img src="images/1.jpg" alt="Photo">
+                <div class="caption">
+                    <p>Kawai eraser<br>3,50 €</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/2.jpg" alt="Photo">
+                <div class="caption">
+                    <p>Kawai pens<br>6,00 €</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/3.jpg" alt="Photo">
+                <div class="caption">
+                    <p>Cat bookmarks<br>3,00 €</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/4.jpg" alt="Photo">
+                <div class="caption">
+                    <p>Dual-tip magnet pen<br>2,50</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/5.jpg" alt="Photo">
+                <div class="caption">
+                    <p>Kawai choco pen<br>2,00 €</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/6.jpg" alt="Photo">
+                <div class="caption">
+                    <p>Normal pens<br>0,50 € - 0,70 €</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/7.jpg" alt="Photo">
+                <div class="caption">
+                    <p>Dual-tip pen<br>2,20 €</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/8.jpg" alt="Photo">
+                <div class="caption">
+                    <p>Sushi eraser<br>4,00 €</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/9.jpg" alt="Photo">
+                <div class="caption">
+                    <p>Teddy notebook<br>1,00 €</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/10.jpg" alt="Photo">
+                <div class="caption">
+                    <p>Garfield notebook<br>7,00 €</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/11.jpg" alt="Photo">
+                <div class="caption">
+                    <p>Art-book<br>8,00 €</p>
+                </div>
+            </div>
+                        <div class="gallery-item">
+                <img src="images/12.jpg" alt="Photo">
+                <div class="caption">
+                    <p>Kawai notebook<br>4,50 €</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
